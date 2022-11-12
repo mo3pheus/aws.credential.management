@@ -1,7 +1,0 @@
-java -jar target/cred.experiments-1.0-shaded.jar \
---debug.logging false \
---log.directory logs \
---local.filename src/main/resources/project.properties \
---s3.bucket.name cred-experiment \
---s3.access.key AWS_S3_ACCESS_KEY_ID \
---s3.secret.key AWS_S3_SECRET_KEY
